@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public abstract class AbstractImageModule implements Module {
-    static final List<String> _supportedFormats = Arrays.asList("jpg","jpeg","png","bmp", "webp");
+    static final List<String> _supportedFormats = Arrays.asList("jpg","jpeg","png");
 
     @Override
     public boolean isSupportedFormat(File file) {

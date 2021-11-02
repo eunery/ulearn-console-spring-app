@@ -21,7 +21,7 @@ import java.io.InputStream;
 public class NameFromTagsModule extends AbstractAudioModule{
     @Override
     public String getFunctionDescription() {
-        return null;
+        return "Возвращает название тэгов";
     }
 
     @Override

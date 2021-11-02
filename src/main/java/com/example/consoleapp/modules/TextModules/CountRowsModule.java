@@ -1,5 +1,6 @@
 package com.example.consoleapp.modules.TextModules;
 
+import com.itextpdf.text.pdf.PdfReader;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
